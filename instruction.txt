@@ -1,0 +1,24 @@
+Create a DNN Web App through the Azure portal utilizing a template
+
+Step 1: Login to the Portal, search and select for DNN Platform
+Step 2: Fill out the fields
+Step 3: Create server admin and passowrd
+Step 4: Change the pricing tier to Standard S0: 20 DTUs, 250GB.
+    Note:   -The installation will fail if you try to use the free tier.
+            -The installation may fail if the DTU is under 20.
+            -Choose something comparable that has 20 DTU or higher.
+Step 5: After you deploy the resouce, go to the resource and click to copy the URL in the Overview section and open that site in a new page. 
+Step 6: On that page, fill out info:
+    - Username: host
+    - Database Information:
+        •	Database Type: SQL Server/SQL server express database.
+        •   Server name: dnnsophanna.database.windows.net
+        •	Security: User Defined
+        •	Run Database As: Select Database Owner
+
+Step 7: Wait for the new installation dialogue box to complete;
+        Click on Visit Website and login
+        Enter the Username and Password you created in Step 6
+            Username: host
+            Password: ...
+Step 8:	You will see the back end portal for DNN if at the top right you are logged in as Superuser Account
